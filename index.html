@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blume popo — He drowns in the She // MV</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage"><canvas id="view"></canvas></div>
+
+<div id="boot">
+  <div class="sheet">
+    <div class="crop tl"></div><div class="crop tr"></div><div class="crop bl"></div><div class="crop br"></div>
+    <div class="kicker">Blume popo — 『海と毒薬』 track 01 · 第二版</div>
+    <h1><i>He drowns in the She</i></h1>
+    <div class="jp">彼は、シーの中で溺れる。</div>
+    <div class="rule"></div>
+    <div class="meta">
+      <span>♩ = 91</span><span>4/4 → 3/8 → 5/8 → 6/8 → 4/4</span><span>3′42″</span>
+    </div>
+    <div id="bootStatus">読み込み中…</div>
+    <div class="bar"><div id="bootBar"></div></div>
+    <button id="playBtn" disabled>▶ 再生 / PLAY</button>
+    <label id="fileLbl" class="hidden">音声ファイルを選択… <input id="fileIn" type="file" accept="audio/*"></label>
+    <div class="keys">
+      Space 再生/停止 · ←/→ 1小節 · Shift+←/→ 8小節 · PgUp/PgDn 段落 · F 全画面 · H タイムライン · D デバッグ · R 録画 · [ ] 同期補正 · Q 画質
+    </div>
+  </div>
+</div>
+
+<div id="hud" class="hidden">
+  <div id="tl"><canvas id="tlc"></canvas></div>
+</div>
+<pre id="dbg" class="hidden"></pre>
+
+<script src="data/analysis.js"></script>
+<script src="data/images.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

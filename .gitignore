@@ -1,0 +1,13 @@
+# Generated / scratch output from the tools in this folder:
+#   out/shots/  headless-browser contact sheets and frame dumps
+#   out/        decoded audio, exported analysis features, preview rasters
+#   out/ov/     Openverse image-search download cache
+# Regenerate with tools/analyze.py, tools/shoot.js, tools/prep_images.py, ...
+tools/out/
+
+# OS / Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
